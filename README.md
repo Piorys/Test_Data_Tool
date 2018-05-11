@@ -5,11 +5,15 @@ Aim of this tool is to provide desired set of data for testing purposes.
 
 * Personal data
   * Name
-  * Surname • Birthdate
+  * Surname
+  * Birthdate
 * Address data
-  * Street address • House number • Flat number
+  * Street address
+  * House number
+  * Flat number
   * City
-  * Zipcode • State
+  * Zipcode
+  * State
   * Country
 * Contact data
   * Mail
