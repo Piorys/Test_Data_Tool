@@ -1,0 +1,23 @@
+{
+  "name": "test_data_tool",
+  "version": "1.0.0",
+  "description": "Tool to assist testing activities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piorys/Test_Data_Tool.git"
+  },
+  "author": "Piotr Ryszewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Piorys/Test_Data_Tool/issues"
+  },
+  "homepage": "https://github.com/Piorys/Test_Data_Tool#readme",
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "random-js": "^1.0.8"
+  }
+}
