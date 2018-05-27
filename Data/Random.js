@@ -18,6 +18,7 @@ const dictionary = require("./Source/Dictionary.js");
 const personSchema = require("./Source/PersonSchema.js");
 
 module.exports = class RandomData {
+
   /*
   Scope: Helper function to return random value from an array
   @param data - Array of values
