@@ -403,7 +403,7 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 33
         }
-      }, this.props.firstName)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
+      }, generateData.firstName)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 35
@@ -418,7 +418,7 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 37
         }
-      }, this.props.lastName)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
+      }, generateData.lastName)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39
@@ -433,7 +433,7 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 41
         }
-      }, this.props.username)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
+      }, "generateData.username}")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 43
@@ -448,7 +448,7 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 45
         }
-      }, this.props.password)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
+      }, generateData.password)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 47
@@ -463,7 +463,7 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 49
         }
-      }, this.props.telephone)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
+      }, generateData.telephone)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 51
@@ -478,7 +478,7 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 53
         }
-      }, this.props.country)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
+      }, generateData.country)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 55
@@ -493,7 +493,7 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 57
         }
-      }, this.props.streetName)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
+      }, generateData.streetName)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 59
@@ -508,7 +508,7 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 61
         }
-      }, this.props.streetNumber)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
+      }, generateData.streetNumber)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 63
@@ -523,7 +523,7 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 65
         }
-      }, this.props.flatNumber)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
+      }, generateData.flatNumber)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 67
@@ -538,7 +538,7 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 69
         }
-      }, this.props.zipCode)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
+      }, generateData.zipCode)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Table"].Row, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 71
@@ -553,7 +553,7 @@ function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 73
         }
-      }, this.props.streetAddress)))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Button"], {
+      }, generateData.streetAddress)))), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["Button"], {
         content: "Generate!",
         primary: true,
         __source: {
@@ -563,11 +563,11 @@ function (_Component) {
       })));
     }
   }], [{
-    key: "getInitialProps",
+    key: "generateData",
     value: function () {
-      var _getInitialProps = _asyncToGenerator(
+      var _generateData = _asyncToGenerator(
       /*#__PURE__*/
-      __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default.a.mark(function _callee(props) {
+      __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default.a.mark(function _callee() {
         var person;
         return __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
           while (1) {
@@ -596,8 +596,8 @@ function (_Component) {
         }, _callee, this);
       }));
 
-      return function getInitialProps(_x) {
-        return _getInitialProps.apply(this, arguments);
+      return function generateData() {
+        return _generateData.apply(this, arguments);
       };
     }()
   }]);

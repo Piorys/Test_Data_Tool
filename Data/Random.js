@@ -3,7 +3,7 @@ Author: Piotr Ryszewski
 Date: 24.05.2018
 Scope: Methods for generating random data
 */
-"use strict"
+"use strict";
 
 //Libraries
 const random = require("random-js")();
@@ -17,8 +17,7 @@ const streetBase = require("./Source/Streets.js");
 const dictionary = require("./Source/Dictionary.js");
 const personSchema = require("./Source/PersonSchema.js");
 
-module.exports = class RandomData {
-
+class RandomData {
   /*
   Scope: Helper function to return random value from an array
   @param data - Array of values
@@ -91,18 +90,14 @@ module.exports = class RandomData {
   }
 
   getRandomTelephone() {
-    return (
-      this.getRandomDigit() +
-      this.getRandomDigit() +
-      this.getRandomDigit() +
-      this.getRandomDigit() +
-      this.getRandomDigit() +
-      this.getRandomDigit() +
-      this.getRandomDigit() +
-      this.getRandomDigit() +
-      this.getRandomDigit()
-    );
+    let phone = "";
+    for (var i = 0; i < 9; i++) {
+      var digit = this.getRandomDigit();
+      phone = phone + digit;
+    }
+    return phone;
   }
+
   getRandomStreetAddress() {
     if (random.bool()) {
       return (
@@ -134,3 +129,6 @@ module.exports = class RandomData {
     return person;
   }
 }
+
+let data = new RandomData();
+console.log(data.getPerson());
