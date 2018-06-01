@@ -17,7 +17,7 @@ const streetBase = require("./Source/Streets.js");
 const dictionary = require("./Source/Dictionary.js");
 const personSchema = require("./Source/PersonSchema.js");
 
-class RandomData {
+module.exports = class RandomData {
   /*
   Scope: Helper function to return random value from an array
   @param data - Array of values
@@ -129,6 +129,3 @@ class RandomData {
     return person;
   }
 }
-
-let data = new RandomData();
-console.log(data.getPerson());
