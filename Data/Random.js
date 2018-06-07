@@ -3,7 +3,7 @@ Author: Piotr Ryszewski
 Date: 24.05.2018
 Scope: Methods for generating random data
 */
-"use strict"
+"use strict";
 
 //Libraries
 const random = require("random-js")();
@@ -90,18 +90,14 @@ module.exports = class RandomData {
   }
 
   getRandomTelephone() {
-    return (
-      this.getRandomDigit() +
-      this.getRandomDigit() +
-      this.getRandomDigit() +
-      this.getRandomDigit() +
-      this.getRandomDigit() +
-      this.getRandomDigit() +
-      this.getRandomDigit() +
-      this.getRandomDigit() +
-      this.getRandomDigit()
-    );
+    let phone = "";
+    for (var i = 0; i < 9; i++) {
+      var digit = this.getRandomDigit();
+      phone = phone + digit;
+    }
+    return phone;
   }
+
   getRandomStreetAddress() {
     if (random.bool()) {
       return (
