@@ -4,11 +4,11 @@
   "description": "Tool to assist testing activities",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
     "dev": "next",
     "build": "next build",
-    "heroku-postbuild":"next build",
-    "start": "next start"
+    "start": "next start -p $PORT",
+    "heroku-postbuild":"npm run build",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
